@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base — slate/neutral */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Sidebar (slightly contrasted from main) */
+    --sidebar: 210 20% 98%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-border: 215 25% 90%;
+
+    /* Primary — burnt orange "storm" */
+    --primary: 20 90% 42%;
+    --primary-foreground: 60 9.1% 97.8%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 24 95% 95%;
+    --accent-foreground: 20 90% 25%;
+
+    --destructive: 0 72.2% 50.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --success: 158 64% 30%;
+    --success-foreground: 152 81% 96%;
+
+    --warning: 32 95% 44%;
+    --warning-foreground: 48 96% 95%;
+
+    --info: 217 91% 45%;
+    --info-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 20 90% 42%;
+
+    --radius: 0.625rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html, body, #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1, "cv11" 1;
+  }
+
+  /* Tabular numerals everywhere we read values */
+  .tabular { font-variant-numeric: tabular-nums; }
+}

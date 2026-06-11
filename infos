@@ -1,0 +1,429 @@
+Voici un texte structuré que tu peux utiliser comme base pour définir les fonctionnalités de ton SaaS IA.
+
+# SaaS IA d'Assistance au Dimensionnement et à la Conception Mécanique
+
+## Vision
+
+Créer un assistant d'ingénierie mécanique basé sur l'IA capable d'accompagner les étudiants, techniciens, ingénieurs méthodes, ingénieurs bureau d'études et même les non-experts dans le dimensionnement, la conception, la vérification et l'optimisation de systèmes mécaniques selon les normes industrielles.
+
+---
+
+# 1. Assistant de Conception Guidée
+
+* Dialogue en langage naturel.
+* Compréhension des besoins fonctionnels.
+* Reformulation automatique du cahier des charges.
+* Questions intelligentes pour compléter les données manquantes.
+* Génération automatique de solutions techniques adaptées.
+
+Exemple :
+
+"Je dois transmettre 15 kW à 1500 tr/min avec un arbre horizontal."
+
+L'IA propose :
+
+* Transmission par courroie
+* Transmission par chaîne
+* Engrenages
+* Accouplement direct
+
+avec avantages, inconvénients et justification.
+
+---
+
+# 2. Sélection Automatique des Roulements
+
+L'utilisateur décrit :
+
+* Charges radiales
+* Charges axiales
+* Vitesse
+* Durée de vie souhaitée
+* Environnement
+
+L'IA détermine :
+
+* Pourquoi utiliser un roulement
+* Type adapté
+* Roulement rigide à billes
+* Roulement à rouleaux cylindriques
+* Roulement à rouleaux coniques
+* Roulement à aiguilles
+* Roulement auto-aligneur
+* Butée à billes
+* Butée à rouleaux
+
+Résultats :
+
+* Calcul de durée de vie L10
+* Charge dynamique requise
+* Charge statique
+* Désignation normalisée
+* Dimensions normalisées
+* Références SKF, FAG, NSK, NTN, Timken
+* Alternatives compatibles
+
+Exemple :
+
+Roulement 6208
+40 × 80 × 18 mm
+
+avec justification technique complète.
+
+---
+
+# 3. Dimensionnement des Arbres
+
+Calcul automatique :
+
+* Diamètre minimal
+* Contraintes de torsion
+* Contraintes de flexion
+* Contraintes combinées
+* Fatigue
+* Coefficient de sécurité
+
+Sorties :
+
+* Diamètre recommandé
+* Zones critiques
+* Plans de principe
+
+---
+
+# 4. Dimensionnement des Clavetages
+
+Calcul :
+
+* Largeur de clavette
+* Hauteur
+* Longueur minimale
+
+Vérifications :
+
+* Cisaillement
+* Écrasement
+
+Normes ISO intégrées.
+
+---
+
+# 5. Dimensionnement des Accouplements
+
+Choix automatique :
+
+* Rigide
+* Élastique
+* À dentures
+* À membrane
+* À chaîne
+* À flector
+
+Calcul :
+
+* Couple transmissible
+* Facteurs de service
+* Désignation commerciale
+
+---
+
+# 6. Conception des Transmissions par Courroies
+
+Calcul :
+
+* Puissance
+* Couple
+* Rapport de transmission
+* Entraxe
+
+Choix :
+
+* Courroie trapézoïdale
+* Poly-V
+* Synchrone
+* Plate
+
+Résultats :
+
+* Références normalisées
+* Nombre de courroies
+* Diamètres de poulies
+
+---
+
+# 7. Conception des Transmissions par Chaînes
+
+Calcul :
+
+* Pas
+* Nombre de dents
+* Longueur
+
+Choix :
+
+* Chaîne simple
+* Double
+* Triple
+
+Normes ISO.
+
+---
+
+# 8. Conception des Engrenages
+
+Types :
+
+* Droit
+* Hélicoïdal
+* Conique
+* Vis sans fin
+
+Calcul :
+
+* Module
+* Nombre de dents
+* Largeur
+* Efforts
+
+Vérifications :
+
+* Flexion
+* Pression de contact
+
+Normes ISO 6336.
+
+---
+
+# 9. Dimensionnement des Vis et Assemblages Boulonnés
+
+Calcul :
+
+* Précharge
+* Serrage
+* Cisaillement
+* Traction
+
+Choix :
+
+* Classe 8.8
+* Classe 10.9
+* Classe 12.9
+
+---
+
+# 10. Conception des Ressorts
+
+Calcul :
+
+* Compression
+* Traction
+* Torsion
+
+Résultats :
+
+* Diamètre du fil
+* Nombre de spires
+* Longueur libre
+
+---
+
+# 11. Vérification de Résistance des Matériaux
+
+Calcul :
+
+* Von Mises
+* Tresca
+* Fatigue
+* Flambage
+
+Choix automatique des matériaux.
+
+---
+
+# 12. Base de Données de Composants Standards
+
+Bibliothèque intégrée :
+
+* Roulements
+* Clavettes
+* Circlips
+* Vis
+* Écrous
+* Rondelles
+* Joints
+* Paliers
+* Accouplements
+* Courroies
+* Chaînes
+* Engrenages
+
+Recherche intelligente par fonction.
+
+---
+
+# 13. Génération Automatique de Schémas
+
+Production automatique :
+
+* Schémas cinématiques
+* Schémas de transmission
+* Implantation des composants
+
+---
+
+# 14. Génération Automatique de Plans CAO
+
+Export :
+
+* SolidWorks
+* Inventor
+* CATIA
+* Fusion 360
+* STEP
+* DXF
+
+Création paramétrique automatique.
+
+---
+
+# 15. Calculs Mécaniques Assistés IA
+
+Bibliothèque de calculs :
+
+* Couples
+* Puissances
+* Rendements
+* Inerties
+* Vibrations
+* Fréquences propres
+* Équilibrage
+
+---
+
+# 16. Assistant Pédagogique
+
+Pour étudiants :
+
+* Explication des formules
+* Détails des calculs
+* Exercices corrigés
+* Quiz interactifs
+
+Mode apprentissage progressif.
+
+---
+
+# 17. Assistant Bureau d'Études
+
+Création automatique :
+
+* Notes de calcul
+* Dossiers de justification
+* Rapports PDF
+* Nomenclatures
+
+---
+
+# 18. Optimisation Multi-Critères
+
+Optimisation selon :
+
+* Coût
+* Masse
+* Durée de vie
+* Rendement
+* Fabricabilité
+
+Proposition de plusieurs variantes classées.
+
+---
+
+# 19. Analyse de Fabrication
+
+Vérification :
+
+* Usinabilité
+* Tolérances
+* Rugosité
+* Assemblage
+
+Suggestions de simplification.
+
+---
+
+# 20. Analyse de Défaillance
+
+L'utilisateur décrit une panne.
+
+L'IA identifie :
+
+* Causes probables
+* Modes de rupture
+* Mauvais dimensionnement
+* Défauts de montage
+* Défauts de lubrification
+
+Propose des solutions correctives.
+
+---
+
+# 21. Copilote d'Ingénierie Générative
+
+À partir d'une fonction :
+
+"Transmettre 20 kW entre deux arbres espacés de 700 mm."
+
+L'IA génère :
+
+* Plusieurs architectures
+* Calculs
+* Composants
+* Plans de principe
+* Coûts estimatifs
+
+---
+
+# 22. Génération de Dossiers Techniques Complets
+
+Documents générés :
+
+* Cahier de calcul
+* Note de justification
+* Rapport PDF
+* Plans
+* Nomenclature
+* Fiches composants
+* Analyse de risques
+
+---
+
+# 23. Intelligence Industrielle Avancée (Différenciateur)
+
+* Intégration SKF/FAG/NSK/NTN
+* Normes ISO
+* DIN
+* ASME
+* ANSI
+* Eurocodes
+* Recommandations fabricants
+* Retour d'expérience industriel
+* Validation automatique de cohérence
+
+---
+
+# Objectif Final
+
+Permettre à un étudiant débutant ou à un ingénieur expérimenté de décrire un problème mécanique en langage naturel et d'obtenir instantanément :
+
+* Les solutions possibles
+* Le dimensionnement complet
+* Les composants normalisés
+* Les références industrielles
+* Les calculs détaillés
+* Les plans et schémas
+* Les rapports techniques prêts à l'emploi
+* Les recommandations optimisées
+* Les vérifications normatives
+* Les alternatives de conception
+
+À terme, la fonctionnalité la plus différenciante serait un **"Mechanical Design Copilot"** qui combine IA conversationnelle + moteur de calcul certifié + bibliothèque de composants industriels + génération CAO automatique. C'est ce qui pourrait réellement séduire les bureaux d'études, les services méthodes et les écoles d'ingénieurs.
